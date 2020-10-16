@@ -1,4 +1,4 @@
-'''
+
 def Pattern(n):
 	for i in range(n):
 		print(("* "*(i+1)).center(2*n))
@@ -6,5 +6,5 @@ def Pattern(n):
 		print(("* "*(i)).center(2*n))
 n = int(input())
 Pattern(n)
-'''
+
 
